@@ -1,0 +1,158 @@
+/* strat global rules
+:root
+{
+    --main-color:#2196f3;
+    --main-color-alt:#1787e0;
+    --main-transition:0.3s;
+    --main-padding-top:100px;
+    --main-padding-bottom:100px;
+    --main-background-color: #ececec;
+}
+*
+{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+   
+}
+html
+{
+    scroll-behavior:smooth;
+   
+    */
+ 
+
+/* @media(max-width:767px){
+    html , body 
+    {
+        overflow-x: hidden;
+        height: 100vh;
+        width: 100vw;
+    }
+}
+body{
+    perspective: 600px;
+    font-family: 'Cairo', sans-serif; 
+    counter-reset: services;
+ 
+  width: 1000px;
+  height: 500px;
+   
+    
+    
+}
+ul
+{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+
+}
+a{
+    text-decoration: none;
+}
+.container
+{
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    
+}
+
+@media(min-width:768px){
+    .container{
+        width:760px;
+        
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    }
+}
+@media(min-width:992px){
+    .container{
+        width:970px;
+    }
+}
+@media(min-width:1200px){
+    .container{
+        width:1170px;
+    }
+}
+
+.main-title
+{
+   
+    margin:0px  auto 80px;
+    border: 1px solid black;
+    padding: 10px 20px;
+    font-size: 30px;
+    width: fit-content;
+    position: relative;
+    z-index: 1;
+    transition: var(--main-transition);
+
+}
+.main-title:hover
+{
+    color: white;
+    border:2px solid white
+}
+.main-title:hover::before
+{
+z-index: -1;
+animation: before-move .5s linear forwards;
+transition: var(--main-transition);
+
+}
+.main-title:hover::after
+{
+    z-index: -1;
+    animation: after-move .5s linear forwards; 
+    transition: var(--main-transition);
+}
+.main-title::before
+{
+    content:"";
+width: 12px;
+height: 12px;
+background-color: var(--main-color);
+border-radius: 50%;
+position: absolute;
+left: -30px;
+top: 50%;
+transform: translatey(-50%);
+
+
+}
+.main-title::after{
+    content:"";
+width: 12px;
+height: 12px;
+background-color: var(--main-color);
+border-radius: 50%;
+position: absolute;
+right: -30px;
+top: 50%;
+transform: translatey(-50%);
+
+
+}
+.spike
+{
+    position: relative;
+}
+.spike::after
+{
+    content: "";
+    position: absolute;
+    right:0;
+    width: 100%;
+    height: 30px;
+    z-index: 1;
+    background-image: linear-gradient(225deg , white 25%, transparent 25%),
+  linear-gradient(225deg, white 25%, transparent 25%);
+  background-size: 30px 30px ;
+grid-template-columns: repe;
+} */
